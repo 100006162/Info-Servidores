@@ -1,0 +1,100 @@
+.title-container-server {
+    text-align: center;
+}
+
+.title-container-server h1 {
+    font-size: 3em;
+    font-weight: 400;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.14);
+}
+
+.button-container-server {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button-server {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%; 
+    text-decoration: none;
+    color: black;
+    transition: transform .2s;
+}
+
+.button-server:hover {
+    transform: scale(1.1);
+}
+
+.button-server img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+    border: 1px solid black; 
+    padding: 1px; 
+}
+
+.button-server h2 {
+    text-align: center;
+    font-size: 1.5em; 
+}
+
+.server-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.server-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.server-image img {
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid black;
+}
+
+.server-info {
+    flex: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.server-info h1 {
+    font-size: 2.5em;
+}
+
+.server-info h2 {
+    font-size: 2em;
+}
+
+.server-info p {
+    font-size: 1.5em;
+}
+
+.price-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price-button:hover {
+    background-color: #45a049;
+}
+
+
+
